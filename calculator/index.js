@@ -14,8 +14,7 @@ app.get('/add/:a/:b', (req, res) => {
     var a=parseInt(req.params.a);
     var b=parseInt(req.params.b);
     var sum=(a+b).toString()
-    res.send(sum)
-    
+    res.send(sum);   
 })
 
 app.get('/subtract/:a/:b', (req, res) => {

@@ -105,3 +105,8 @@
 //     },1000)
 // }, 1000)
 
+// import {msg, user} from "./test.js";
+
+// console.log(msg);
+
+// user("Deepak");
